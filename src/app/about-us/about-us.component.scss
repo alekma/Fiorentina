@@ -2,8 +2,22 @@
   padding-top: 35px;
   text-align: center;
   color: #7d7d70;
+  font-size: 20px;
+  padding-bottom: 35px;
+  h2 {
+    color: #b91319;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  img {
+    max-width: 100%;
+  }
 }
 .greet {
   font-size: 20px;
   font-weight: 600;
+ margin-bottom: 0;
 }

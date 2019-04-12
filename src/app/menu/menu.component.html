@@ -1,0 +1,14 @@
+<div id="menu">
+  <div class="container">
+    <h2>MENU</h2>
+    <div class="row">
+      <ul>
+        <li *ngFor="let item of menu; let i=index">
+          <p>{{i+1}}.</p>
+          <p> {{item.name}}</p>
+          <p> {{item.price}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

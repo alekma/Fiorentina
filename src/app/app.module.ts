@@ -11,11 +11,12 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
 import { BannerComponent } from './banner/banner.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { MenuComponent } from './menu/menu.component';
 
 
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent, SliderComponent, TopMenuComponent, BannerComponent, AboutUsComponent],
+  declarations: [AppComponent, NavigationComponent, SliderComponent, TopMenuComponent, BannerComponent, AboutUsComponent, MenuComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
