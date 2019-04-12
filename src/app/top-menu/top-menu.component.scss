@@ -1,0 +1,18 @@
+.top-menu {
+  background-color: black;
+  color: #c5c5c5;
+  font-size: 14px;
+  padding: 10px 0;
+  .container .row {
+    justify-content: center;
+    span.header-phone {
+      margin-right: 15px;
+      i.fa.fa-phone {
+        margin-right: 5px;
+      }
+    }
+    span.header-address i.fa.fa-home {
+      margin-right: 5px;
+    }
+  }
+}
